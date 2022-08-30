@@ -1,0 +1,2 @@
+# dynamiclib
+dyanaminc libray
