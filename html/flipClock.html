@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic lib</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/flip-clock.css" />
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="../lib/js/flip-clock.js"></script>
+<script>
+    function back() {
+        history.back();
+    }
+</script>
+<body id="flipBody">
+    <div id="content" class="flipClock">
+       <h2 onclick="back()">BACK</h2>
+       <h1>What time is now?</h1>
+       <time>
+            <div class="clock">
+                <div class="dial-container dial-container--hh js-clock" 
+                    data-cur="9" 
+                    data-start="0" 
+                    data-end="12" 
+                    data-dur="hh">
+                </div>
+                
+                <div class="dial-container dial-container--mm js-clock" 
+                    data-cur="2" 
+                    data-start="0" 
+                    data-end="5" 
+                    data-dur="mm">
+                </div>
+                <div class="dial-container dial-container--m js-clock" 
+                    data-cur="3" 
+                    data-start="0" 
+                    data-end="9" 
+                    data-dur="m">
+                </div>
+                
+                <div class="dial-container dial-container--ss js-clock" 
+                    data-cur="4" 
+                    data-start="0" 
+                    data-end="5" 
+                    data-dur="ss">
+                </div>
+                <div class="dial-container dial-container--s js-clock" 
+                    data-cur="8" 
+                    data-start="0" 
+                    data-end="9" 
+                    data-dur="s">
+                </div>
+            </div>
+      </time>
+    </div>
+</body>
+</html>

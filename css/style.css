@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+html,body {
+    font-family: 'Stylish', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 20%;
+    font-size: 2rem;
+}
+ul li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #311e25;
+}
+#content h1 {
+    text-align: center;
+    font-size: 4.5rem;
+}
+#flipBody {
+    background: linear-gradient(rgb(154, 140, 140), rgba(227, 183, 183,1));
+    background-repeat: no-repeat;
+}
+.flipClock {
+    color: #311e25;
+}
+.flipClock h2{
+    color: whitesmoke;
+    cursor: pointer;
+    text-align: right;
+    padding: 10px;
+}
